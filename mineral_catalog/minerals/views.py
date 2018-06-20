@@ -3,7 +3,6 @@ from django.db.models import Max
 
 import random
 
-
 from .models import Mineral
 
 

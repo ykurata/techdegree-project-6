@@ -1,7 +1,19 @@
 {% extends "layout.html" %}
 
-{% block title %}Mineral index{% endblock %}
+{% block title %}Mineral Home{% endblock %}
 
 {% block content %}
-<h1>Welcome to Yasuko's Minerals!</h1>
+<div class="home" style="margin-top: 100px;">
+    <a href="{% url 'views.index' %}">
+      <svg class="logo" viewBox="0 0 127.6 84.8" preserveAspectRation="xMinYMin meet">
+        <polygon points="42.7,84.8 49.6,79.4 40,62.5 51.2,43.5 51.2,43.5 25,0 0,55.6 "/>
+        <polygon class="logo--middle" points="52.9,79.5 52.9,79.5 84.8,80.1 59.7,35 43.3,62.4 "/>
+        <polygon points="127.6,61.4 127.6,61.4 110.3,13.5 110.3,13.5 70.3,48.1 70.3,48.1 88.3,80.5 95.3,81.4 95.3,81.4 "/>
+      </svg>
+      <h1 class="text-centered">Welcome to Yasuko's Minerals!</h1>
+    </a>
+    <h2 class="text-centered"><a href="{% url 'minerals:list' %}">View all minerals</a></h2>
+    <img class="image" src="https://s3-ap-southeast-1.amazonaws.com/subscriber.images/chemistry/2017/09/10081731/Dioptase-36918.jpg"
+alt="Minerals">
+</div>
 {% endblock %}

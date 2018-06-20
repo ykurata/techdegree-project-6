@@ -202,3 +202,17 @@ table, p, ul { margin-bottom: 2.5rem; }
 .mineral__table-container { padding: 5px 30px 0; }
 .mineral__category { font-weight: bold; width: 40%; }
 .mineral__formula { font-size: 12px; }
+
+
+/* custom style */
+.logo-detail {
+    margin-bottom: 20px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+}
